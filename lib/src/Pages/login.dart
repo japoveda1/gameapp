@@ -36,7 +36,7 @@ class _MyHomePageState extends State<MyHomePage> {
       style: style,
       decoration: InputDecoration(
           contentPadding: EdgeInsets.fromLTRB(20.0, 15.0, 20.0, 15.0),
-          hintText: "Email",
+          hintText: "Correo",
           border:
               OutlineInputBorder(borderRadius: BorderRadius.circular(32.0))),
     );
@@ -46,7 +46,7 @@ class _MyHomePageState extends State<MyHomePage> {
       style: style,
       decoration: InputDecoration(
           contentPadding: EdgeInsets.fromLTRB(20.0, 15.0, 20.0, 15.0),
-          hintText: "Password",
+          hintText: "Contraseña",
           border:
               OutlineInputBorder(borderRadius: BorderRadius.circular(32.0))),
     );
@@ -54,7 +54,7 @@ class _MyHomePageState extends State<MyHomePage> {
     final loginButon = Material(
       elevation: 5.0,
       borderRadius: BorderRadius.circular(30.0),
-      color: Color(0xFFE53935),
+      color: Colors.lightBlue[800],
       child: MaterialButton(
         minWidth: MediaQuery.of(context).size.width,
         padding: EdgeInsets.fromLTRB(20.0, 15.0, 20.0, 15.0),
@@ -76,7 +76,7 @@ class _MyHomePageState extends State<MyHomePage> {
       body: SingleChildScrollView(
       child: Center(
         child: Container(
-          color: Colors.white,
+          color: Color(202121),
           child: Padding(
             padding: const EdgeInsets.all(36.0),
             child: Column(

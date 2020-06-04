@@ -21,7 +21,7 @@ class DrawerPage extends StatelessWidget {
                         ),
                         Divider(),
                         ListTile(
-                          trailing: Icon(Icons.movie,color: Colors.blue,),
+                          trailing: Icon(Icons.movie,color: Colors.red[400],),
                           title: Text('Videos',style: TextStyle(
                                           fontFamily: "Comic",
                                           fontSize: 25
@@ -32,7 +32,7 @@ class DrawerPage extends StatelessWidget {
                         ),
                         Divider(),
                         ListTile(
-                          trailing: Icon(Icons.image,color: Colors.blue,),
+                          trailing: Icon(Icons.image,color: Colors.yellow[600],),
                           title: Text('Imagenes',style: TextStyle(
                                           fontFamily: "Comic",
                                           fontSize: 25
@@ -43,7 +43,7 @@ class DrawerPage extends StatelessWidget {
                         ),
                         Divider(),
                         ListTile(
-                          trailing: Icon(Icons.games,color: Colors.blue,),
+                          trailing: Icon(Icons.games,color: Colors.purple[400],),
                           title: Text('Top Video Juegos',style: TextStyle(
                                           fontFamily: "Comic",
                                           fontSize: 25
@@ -54,7 +54,7 @@ class DrawerPage extends StatelessWidget {
                         ),
                         Divider(),
                         ListTile(
-                          trailing: Icon(Icons.camera,color: Colors.blue,),
+                          trailing: Icon(Icons.camera,color: Colors.teal,),
                           title: Text('Steamer',style: TextStyle(
                                           fontFamily: "Comic",
                                           fontSize: 25
@@ -65,7 +65,7 @@ class DrawerPage extends StatelessWidget {
                         ),
                         Divider(),
                         ListTile(
-                          trailing: Icon(Icons.tune,color: Colors.blue,),
+                          trailing: Icon(Icons.tune,color: Colors.white,),
                           title: Text('Configuracion',style: TextStyle(
                                           fontFamily: "Comic",
                                           fontSize: 25
