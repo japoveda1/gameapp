@@ -9,12 +9,10 @@ class DrawerPage extends StatelessWidget {
                       padding: EdgeInsets.zero,
                       children: <Widget>[
                         DrawerHeader(
-                          child: Text('Game App',
-                                      style: TextStyle(
-                                          fontFamily: "Comic",
-                                          fontSize: 55
-                                        ),
-                                      ),
+                          child:  Image.asset(
+                    "assets/logo.png",
+                    fit: BoxFit.contain,
+                  ),
                           decoration: BoxDecoration(
                             color: Colors.blue
                           ),
@@ -65,16 +63,16 @@ class DrawerPage extends StatelessWidget {
                         ),
                         Divider(),
                         ListTile(
-                          trailing: Icon(Icons.tune,color: Colors.white,),
-                          title: Text('Configuracion',style: TextStyle(
+                          trailing: Icon(Icons.exit_to_app,color: Colors.white,),
+                          title: Text('Cerrar sesion',style: TextStyle(
                                           fontFamily: "Comic",
                                           fontSize: 25
                                         ),),
                           onTap: (){
-                             Navigator.pushNamed(context,'configuracion');
+                             Navigator.pushNamed(context,'/login');
                           },
                         ),
-                        Divider(),
+                        /*Divider(),
                         ListTile(
                           trailing: Icon(Icons.assessment,color: Colors.blue,),
                           title: Text('Estadisticas',style: TextStyle(
@@ -84,7 +82,7 @@ class DrawerPage extends StatelessWidget {
                           onTap: (){
                              Navigator.pushNamed(context,'estadistica');
                           },
-                        ),
+                        )*/
                       ],
               ),
       );

@@ -13,8 +13,8 @@ import 'package:gameapp/src/Pages/login.dart';
 Map<String,WidgetBuilder> obtenerRutas(){
 
 return <String,WidgetBuilder>{
-        '/':(BuildContext context)=> MyHomePage(),
-        '/home':(BuildContext context)=> HomePage(),
+        '/login':(BuildContext context)=> MyHomePage(),
+        '/':(BuildContext context)=> HomePage(),
         'video':(BuildContext context)=> VideoPage(),
         'imagen':(BuildContext context)=> ImagenPages(),
         'imagenDetalle':(BuildContext context)=> ImagenesDetalle(),

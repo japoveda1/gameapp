@@ -38,7 +38,15 @@ class VideoPage extends StatelessWidget {
                           
                                     },
                                   ), 
-                            title: Text('Bleach')
+                            title: Row(
+                              children: <Widget>[
+                                Text('The witcher 3'),
+                                SizedBox(width: 30),
+                                Icon(Icons.thumb_up,color:Colors.green,),
+                                SizedBox(width: 20),
+                                Icon(Icons.thumb_down,color:Colors.red)
+                              ],
+                            ),
                           ),
                 )
               
@@ -65,7 +73,15 @@ class VideoPage extends StatelessWidget {
                           
                                     },
                                   ), 
-                            title: Text('Dios de la guerra 2')
+                            title: Row(
+                              children: <Widget>[
+                                Text('God of war 4'),
+                                SizedBox(width: 30),
+                                Icon(Icons.thumb_up,color:Colors.green,),
+                                SizedBox(width: 20),
+                                Icon(Icons.thumb_down,color:Colors.red)
+                              ],
+                            )
                           ),
                 )
               
@@ -92,7 +108,15 @@ class VideoPage extends StatelessWidget {
                           
                                     },
                                   ), 
-                            title: Text('Monster')
+                            title: Row(
+                              children: <Widget>[
+                                Text('The elder  ...' ),
+                                SizedBox(width: 10),
+                                Icon(Icons.thumb_up,color:Colors.green,),
+                                SizedBox(width: 20),
+                                Icon(Icons.thumb_down,color:Colors.red)
+                              ],
+                            )
                           ),
                 )
               
@@ -119,7 +143,15 @@ class VideoPage extends StatelessWidget {
                           
                                     },
                                   ), 
-                            title: Text('Oldwest')
+                            title: Row(
+                              children: <Widget>[
+                                Text('Red dead rede..'),
+                                SizedBox(width: 10),
+                                Icon(Icons.thumb_up,color:Colors.green,),
+                                SizedBox(width: 20),
+                                Icon(Icons.thumb_down,color:Colors.red)
+                              ],
+                            )
                           ),
                 )
               
@@ -146,7 +178,15 @@ class VideoPage extends StatelessWidget {
                           
                                     },
                                   ), 
-                            title: Text('Coninter strike')
+                            title: Row(
+                              children: <Widget>[
+                                Text('Counter strike '),
+                                SizedBox(width: 30),
+                                Icon(Icons.thumb_up,color:Colors.green,),
+                                SizedBox(width: 20),
+                                Icon(Icons.thumb_down,color:Colors.red)
+                              ],
+                            )
                           ),
                 )
               

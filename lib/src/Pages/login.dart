@@ -15,13 +15,16 @@ class MyHomePage extends StatefulWidget {
 
   final String title;
 
+
+
   @override
   _MyHomePageState createState() => _MyHomePageState();
 }
 
 class _MyHomePageState extends State<MyHomePage> {
   TextStyle style = TextStyle(fontFamily: 'Comic', fontSize: 20.0);
-
+  String _userName= ''; 
+  String _password ='';
   @override
   Widget build(BuildContext context) {
     // This method is rerun every time setState is called, for instance as done
@@ -36,9 +39,14 @@ class _MyHomePageState extends State<MyHomePage> {
       style: style,
       decoration: InputDecoration(
           contentPadding: EdgeInsets.fromLTRB(20.0, 15.0, 20.0, 15.0),
-          hintText: "Correo",
+          hintText: "Usuario",
           border:
               OutlineInputBorder(borderRadius: BorderRadius.circular(32.0))),
+      onChanged: (valor){
+        
+        _userName = valor;
+        
+      },
     );
 
     final passwordField = TextField(
@@ -49,6 +57,11 @@ class _MyHomePageState extends State<MyHomePage> {
           hintText: "Contraseña",
           border:
               OutlineInputBorder(borderRadius: BorderRadius.circular(32.0))),
+      onChanged: (valor){
+        
+        _password = valor;
+        
+      },
     );
 
     final loginButon = Material(
@@ -60,10 +73,9 @@ class _MyHomePageState extends State<MyHomePage> {
         padding: EdgeInsets.fromLTRB(20.0, 15.0, 20.0, 15.0),
         
         
-        onPressed: () { Navigator.push(
-    context,
-    MaterialPageRoute(builder: (context) => HomePage()),
-  );},
+        onPressed: () { 
+                         _validarUser(context);          
+                      },
         child: Text("Login",
             textAlign: TextAlign.center,
             style: style.copyWith(
@@ -108,5 +120,52 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
         )
     );
+  }
+
+
+  void _validarUser(BuildContext context){
+
+    if(_password=='1234' && _userName =='clarkent1992' ){
+        Navigator.push(context,
+                                        MaterialPageRoute(builder: (context) => HomePage()),
+                                      );
+
+    }else{
+    _mostrarAlerta (context) ;
+    } 
+
+
+
+  }
+
+    void _mostrarAlerta(BuildContext context){
+
+    showDialog(
+      context: context,
+      barrierDismissible: true,
+      builder: (context){
+        return AlertDialog(
+          shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)) ,
+          title:Text('Upss !'),
+          content: Column(
+            mainAxisSize: MainAxisSize.min,
+            children: <Widget>[
+              Text('Por favor validar el usuario y la contraseña.')
+            ],
+          ),
+          actions: <Widget>[
+            FlatButton(
+              child: Text('Ok'),
+              onPressed: (){
+                Navigator.of(context).pop();
+              },
+            )
+          ],
+        );
+      }
+
+      );
+
+
   }
 }

@@ -35,7 +35,7 @@ class ImagenesDetalle extends StatelessWidget {
                       icon: Icon(Icons.file_download),
                       label: Text('Descargar'),
                       onPressed: (){
-                        
+                        _mostrarAlerta(context);
                       },
                     ),
                   )
@@ -46,4 +46,27 @@ class ImagenesDetalle extends StatelessWidget {
  
     );
   }
+
+  void _mostrarAlerta(BuildContext context){
+
+    showDialog(
+      context: context,
+      barrierDismissible: true,
+      builder: (context){
+        return AlertDialog(
+          shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)) ,
+          content: Column(
+            mainAxisSize: MainAxisSize.min,
+            children: <Widget>[
+              Text('Descarga exitosa !!')
+            ],
+          )
+        );
+      }
+
+      );
+
+
+  }
+
 }

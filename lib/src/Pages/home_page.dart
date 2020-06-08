@@ -7,8 +7,17 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+     
       drawer: DrawerPage(),
       appBar: AppBar(
+        actions: <Widget>[Container(
+            padding: EdgeInsets.all(9),
+            child: CircleAvatar(
+              backgroundImage: NetworkImage('https://desterradosporlasantaortodoxia.files.wordpress.com/2019/07/img_20190711_193035.jpg'),
+              radius : 20,
+              
+            ),
+          )],
         title: Text('Game App', style: TextStyle(fontFamily: "Comic"),),
       ),
       body: ListView(
