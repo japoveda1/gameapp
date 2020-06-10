@@ -10,7 +10,8 @@ class VideoJuegoDetalle extends StatelessWidget {
     return Scaffold(
              drawer: DrawerPage(),
       appBar: AppBar(
-        title : Text('Video juegos detalle')
+        title : Text('Descripción'),
+        backgroundColor: Colors.black38
       ),
       body:ListView(
         children: <Widget>[Container(padding: EdgeInsets.all(10),
@@ -53,7 +54,7 @@ class VideoJuegoDetalle extends StatelessWidget {
                                                     SizedBox(height: 30,),
                                                     Text('A la venta: 17/9/2020'),
                                                     SizedBox(height: 30,),
-                                                    Text('Cyberpunk 2077 es el nuevo videojuego de rol en primera persona con estructura de mundo abierto de CD Projekt RED. Los padres de The Witcher nos presentan para Xbox One, PC y PS4 una aventura de corte futurista y ciberpunk en la que encarnaremos a un personaje diseñado a nuestra medida y en la que tendremos que sobrevivir en una peligrosa urbe plagada de corporaciones, ciborgs, bandas y las más variadas amenazas tecnológicas.'),
+                                                    Text('Cyberpunk 2077 es el nuevo videojuego de rol en primera persona con estructura de mundo abierto de CD Projekt RED. Los padres de The Witcher nos presentan para Xbox One, PC y PS4 una aventura de corte futurista y ciberpunk en la que encarnaremos a un personaje diseñado a nuestra medida y en la que tendremos que sobrevivir en una peligrosa urbe plagada de corporaciones, ciborgs, bandas y las más variadas amenazas tecnológicas.', textAlign: TextAlign.justify),
 
                                                   ],
                                                 ) ,
@@ -87,7 +88,7 @@ class VideoJuegoDetalle extends StatelessWidget {
                                                     SizedBox(height: 30,),
                                                     Text('A la venta: 17/9/2020'),
                                                     SizedBox(height: 30,),
-                                                    Text('Cyberpunk 2077 es el nuevo videojuego de rol en primera persona con estructura de mundo abierto de CD Projekt RED. Los padres de The Witcher nos presentan para Xbox One, PC y PS4 una aventura de corte futurista y ciberpunk en la que encarnaremos a un personaje diseñado a nuestra medida y en la que tendremos que sobrevivir en una peligrosa urbe plagada de corporaciones, ciborgs, bandas y las más variadas amenazas tecnológicas.'),
+                                                    Text('Cyberpunk 2077 es el nuevo videojuego de rol en primera persona con estructura de mundo abierto de CD Projekt RED. Los padres de The Witcher nos presentan para Xbox One, PC y PS4 una aventura de corte futurista y ciberpunk en la que encarnaremos a un personaje diseñado a nuestra medida y en la que tendremos que sobrevivir en una peligrosa urbe plagada de corporaciones, ciborgs, bandas y las más variadas amenazas tecnológicas.', textAlign: TextAlign.justify),
 
                                                   ],
                                                 ) ,
@@ -120,7 +121,7 @@ class VideoJuegoDetalle extends StatelessWidget {
                                                     SizedBox(height: 30,),
                                                     Text('A la venta: 17/9/2020'),
                                                     SizedBox(height: 30,),
-                                                    Text('Cyberpunk 2077 es el nuevo videojuego de rol en primera persona con estructura de mundo abierto de CD Projekt RED. Los padres de The Witcher nos presentan para Xbox One, PC y PS4 una aventura de corte futurista y ciberpunk en la que encarnaremos a un personaje diseñado a nuestra medida y en la que tendremos que sobrevivir en una peligrosa urbe plagada de corporaciones, ciborgs, bandas y las más variadas amenazas tecnológicas.'),
+                                                    Text('Cyberpunk 2077 es el nuevo videojuego de rol en primera persona con estructura de mundo abierto de CD Projekt RED. Los padres de The Witcher nos presentan para Xbox One, PC y PS4 una aventura de corte futurista y ciberpunk en la que encarnaremos a un personaje diseñado a nuestra medida y en la que tendremos que sobrevivir en una peligrosa urbe plagada de corporaciones, ciborgs, bandas y las más variadas amenazas tecnológicas.', textAlign: TextAlign.justify),
 
                                                   ],
                                                 ) ,
@@ -153,7 +154,7 @@ class VideoJuegoDetalle extends StatelessWidget {
                                                     SizedBox(height: 30,),
                                                     Text('A la venta: 17/9/2020'),
                                                     SizedBox(height: 30,),
-                                                    Text('Cyberpunk 2077 es el nuevo videojuego de rol en primera persona con estructura de mundo abierto de CD Projekt RED. Los padres de The Witcher nos presentan para Xbox One, PC y PS4 una aventura de corte futurista y ciberpunk en la que encarnaremos a un personaje diseñado a nuestra medida y en la que tendremos que sobrevivir en una peligrosa urbe plagada de corporaciones, ciborgs, bandas y las más variadas amenazas tecnológicas.'),
+                                                    Text('Cyberpunk 2077 es el nuevo videojuego de rol en primera persona con estructura de mundo abierto de CD Projekt RED. Los padres de The Witcher nos presentan para Xbox One, PC y PS4 una aventura de corte futurista y ciberpunk en la que encarnaremos a un personaje diseñado a nuestra medida y en la que tendremos que sobrevivir en una peligrosa urbe plagada de corporaciones, ciborgs, bandas y las más variadas amenazas tecnológicas.', textAlign: TextAlign.justify),
 
                                                   ],
                                                 ) ,
@@ -186,7 +187,7 @@ class VideoJuegoDetalle extends StatelessWidget {
                                                     SizedBox(height: 30,),
                                                     Text('A la venta: 17/9/2020'),
                                                     SizedBox(height: 30,),
-                                                    Text('Cyberpunk 2077 es el nuevo videojuego de rol en primera persona con estructura de mundo abierto de CD Projekt RED. Los padres de The Witcher nos presentan para Xbox One, PC y PS4 una aventura de corte futurista y ciberpunk en la que encarnaremos a un personaje diseñado a nuestra medida y en la que tendremos que sobrevivir en una peligrosa urbe plagada de corporaciones, ciborgs, bandas y las más variadas amenazas tecnológicas.'),
+                                                    Text('Cyberpunk 2077 es el nuevo videojuego de rol en primera persona con estructura de mundo abierto de CD Projekt RED. Los padres de The Witcher nos presentan para Xbox One, PC y PS4 una aventura de corte futurista y ciberpunk en la que encarnaremos a un personaje diseñado a nuestra medida y en la que tendremos que sobrevivir en una peligrosa urbe plagada de corporaciones, ciborgs, bandas y las más variadas amenazas tecnológicas.', textAlign: TextAlign.justify),
 
                                                   ],
                                                 ) ,
@@ -219,7 +220,7 @@ class VideoJuegoDetalle extends StatelessWidget {
                                                     SizedBox(height: 30,),
                                                     Text('A la venta: 17/9/2020'),
                                                     SizedBox(height: 30,),
-                                                    Text('Cyberpunk 2077 es el nuevo videojuego de rol en primera persona con estructura de mundo abierto de CD Projekt RED. Los padres de The Witcher nos presentan para Xbox One, PC y PS4 una aventura de corte futurista y ciberpunk en la que encarnaremos a un personaje diseñado a nuestra medida y en la que tendremos que sobrevivir en una peligrosa urbe plagada de corporaciones, ciborgs, bandas y las más variadas amenazas tecnológicas.'),
+                                                    Text('Cyberpunk 2077 es el nuevo videojuego de rol en primera persona con estructura de mundo abierto de CD Projekt RED. Los padres de The Witcher nos presentan para Xbox One, PC y PS4 una aventura de corte futurista y ciberpunk en la que encarnaremos a un personaje diseñado a nuestra medida y en la que tendremos que sobrevivir en una peligrosa urbe plagada de corporaciones, ciborgs, bandas y las más variadas amenazas tecnológicas.', textAlign: TextAlign.justify),
 
                                                   ],
                                                 ) ,
@@ -252,7 +253,7 @@ class VideoJuegoDetalle extends StatelessWidget {
                                                     SizedBox(height: 30,),
                                                     Text('A la venta: 17/9/2020'),
                                                     SizedBox(height: 30,),
-                                                    Text('Cyberpunk 2077 es el nuevo videojuego de rol en primera persona con estructura de mundo abierto de CD Projekt RED. Los padres de The Witcher nos presentan para Xbox One, PC y PS4 una aventura de corte futurista y ciberpunk en la que encarnaremos a un personaje diseñado a nuestra medida y en la que tendremos que sobrevivir en una peligrosa urbe plagada de corporaciones, ciborgs, bandas y las más variadas amenazas tecnológicas.'),
+                                                    Text('Cyberpunk 2077 es el nuevo videojuego de rol en primera persona con estructura de mundo abierto de CD Projekt RED. Los padres de The Witcher nos presentan para Xbox One, PC y PS4 una aventura de corte futurista y ciberpunk en la que encarnaremos a un personaje diseñado a nuestra medida y en la que tendremos que sobrevivir en una peligrosa urbe plagada de corporaciones, ciborgs, bandas y las más variadas amenazas tecnológicas.', textAlign: TextAlign.justify),
 
                                                   ],
                                                 ) ,
@@ -285,7 +286,7 @@ class VideoJuegoDetalle extends StatelessWidget {
                                                     SizedBox(height: 30,),
                                                     Text('A la venta: 17/9/2020'),
                                                     SizedBox(height: 30,),
-                                                    Text('Cyberpunk 2077 es el nuevo videojuego de rol en primera persona con estructura de mundo abierto de CD Projekt RED. Los padres de The Witcher nos presentan para Xbox One, PC y PS4 una aventura de corte futurista y ciberpunk en la que encarnaremos a un personaje diseñado a nuestra medida y en la que tendremos que sobrevivir en una peligrosa urbe plagada de corporaciones, ciborgs, bandas y las más variadas amenazas tecnológicas.'),
+                                                    Text('Cyberpunk 2077 es el nuevo videojuego de rol en primera persona con estructura de mundo abierto de CD Projekt RED. Los padres de The Witcher nos presentan para Xbox One, PC y PS4 una aventura de corte futurista y ciberpunk en la que encarnaremos a un personaje diseñado a nuestra medida y en la que tendremos que sobrevivir en una peligrosa urbe plagada de corporaciones, ciborgs, bandas y las más variadas amenazas tecnológicas.', textAlign: TextAlign.justify),
 
                                                   ],
                                                 ) ,
@@ -318,7 +319,7 @@ class VideoJuegoDetalle extends StatelessWidget {
                                                     SizedBox(height: 30,),
                                                     Text('A la venta: 17/9/2020'),
                                                     SizedBox(height: 30,),
-                                                    Text('Cyberpunk 2077 es el nuevo videojuego de rol en primera persona con estructura de mundo abierto de CD Projekt RED. Los padres de The Witcher nos presentan para Xbox One, PC y PS4 una aventura de corte futurista y ciberpunk en la que encarnaremos a un personaje diseñado a nuestra medida y en la que tendremos que sobrevivir en una peligrosa urbe plagada de corporaciones, ciborgs, bandas y las más variadas amenazas tecnológicas.'),
+                                                    Text('Cyberpunk 2077 es el nuevo videojuego de rol en primera persona con estructura de mundo abierto de CD Projekt RED. Los padres de The Witcher nos presentan para Xbox One, PC y PS4 una aventura de corte futurista y ciberpunk en la que encarnaremos a un personaje diseñado a nuestra medida y en la que tendremos que sobrevivir en una peligrosa urbe plagada de corporaciones, ciborgs, bandas y las más variadas amenazas tecnológicas.', textAlign: TextAlign.justify),
 
                                                   ],
                                                 ) ,
@@ -351,7 +352,7 @@ class VideoJuegoDetalle extends StatelessWidget {
                                                     SizedBox(height: 30,),
                                                     Text('A la venta: 17/9/2020'),
                                                     SizedBox(height: 30,),
-                                                    Text('Cyberpunk 2077 es el nuevo videojuego de rol en primera persona con estructura de mundo abierto de CD Projekt RED. Los padres de The Witcher nos presentan para Xbox One, PC y PS4 una aventura de corte futurista y ciberpunk en la que encarnaremos a un personaje diseñado a nuestra medida y en la que tendremos que sobrevivir en una peligrosa urbe plagada de corporaciones, ciborgs, bandas y las más variadas amenazas tecnológicas.'),
+                                                    Text('Cyberpunk 2077 es el nuevo videojuego de rol en primera persona con estructura de mundo abierto de CD Projekt RED. Los padres de The Witcher nos presentan para Xbox One, PC y PS4 una aventura de corte futurista y ciberpunk en la que encarnaremos a un personaje diseñado a nuestra medida y en la que tendremos que sobrevivir en una peligrosa urbe plagada de corporaciones, ciborgs, bandas y las más variadas amenazas tecnológicas.', textAlign: TextAlign.justify),
 
                                                   ],
                                                 ) ,
@@ -382,7 +383,7 @@ class VideoJuegoDetalle extends StatelessWidget {
                                                     SizedBox(height: 30,),
                                                     Text('A la venta: 17/9/2020'),
                                                     SizedBox(height: 30,),
-                                                    Text('Cyberpunk 2077 es el nuevo videojuego de rol en primera persona con estructura de mundo abierto de CD Projekt RED. Los padres de The Witcher nos presentan para Xbox One, PC y PS4 una aventura de corte futurista y ciberpunk en la que encarnaremos a un personaje diseñado a nuestra medida y en la que tendremos que sobrevivir en una peligrosa urbe plagada de corporaciones, ciborgs, bandas y las más variadas amenazas tecnológicas.'),
+                                                    Text('Cyberpunk 2077 es el nuevo videojuego de rol en primera persona con estructura de mundo abierto de CD Projekt RED. Los padres de The Witcher nos presentan para Xbox One, PC y PS4 una aventura de corte futurista y ciberpunk en la que encarnaremos a un personaje diseñado a nuestra medida y en la que tendremos que sobrevivir en una peligrosa urbe plagada de corporaciones, ciborgs, bandas y las más variadas amenazas tecnológicas.', textAlign: TextAlign.justify),
 
                                                   ],
                                                 ) ,
@@ -415,7 +416,7 @@ class VideoJuegoDetalle extends StatelessWidget {
                                                     SizedBox(height: 30,),
                                                     Text('A la venta: 17/9/2020'),
                                                     SizedBox(height: 30,),
-                                                    Text('Cyberpunk 2077 es el nuevo videojuego de rol en primera persona con estructura de mundo abierto de CD Projekt RED. Los padres de The Witcher nos presentan para Xbox One, PC y PS4 una aventura de corte futurista y ciberpunk en la que encarnaremos a un personaje diseñado a nuestra medida y en la que tendremos que sobrevivir en una peligrosa urbe plagada de corporaciones, ciborgs, bandas y las más variadas amenazas tecnológicas.'),
+                                                    Text('Cyberpunk 2077 es el nuevo videojuego de rol en primera persona con estructura de mundo abierto de CD Projekt RED. Los padres de The Witcher nos presentan para Xbox One, PC y PS4 una aventura de corte futurista y ciberpunk en la que encarnaremos a un personaje diseñado a nuestra medida y en la que tendremos que sobrevivir en una peligrosa urbe plagada de corporaciones, ciborgs, bandas y las más variadas amenazas tecnológicas.', textAlign: TextAlign.justify),
 
                                                   ],
                                                 ) ,
@@ -448,7 +449,7 @@ class VideoJuegoDetalle extends StatelessWidget {
                                                     SizedBox(height: 30,),
                                                     Text('A la venta: 17/9/2020'),
                                                     SizedBox(height: 30,),
-                                                    Text('Cyberpunk 2077 es el nuevo videojuego de rol en primera persona con estructura de mundo abierto de CD Projekt RED. Los padres de The Witcher nos presentan para Xbox One, PC y PS4 una aventura de corte futurista y ciberpunk en la que encarnaremos a un personaje diseñado a nuestra medida y en la que tendremos que sobrevivir en una peligrosa urbe plagada de corporaciones, ciborgs, bandas y las más variadas amenazas tecnológicas.'),
+                                                    Text('Cyberpunk 2077 es el nuevo videojuego de rol en primera persona con estructura de mundo abierto de CD Projekt RED. Los padres de The Witcher nos presentan para Xbox One, PC y PS4 una aventura de corte futurista y ciberpunk en la que encarnaremos a un personaje diseñado a nuestra medida y en la que tendremos que sobrevivir en una peligrosa urbe plagada de corporaciones, ciborgs, bandas y las más variadas amenazas tecnológicas.', textAlign: TextAlign.justify),
 
                                                   ],
                                                 ) ,

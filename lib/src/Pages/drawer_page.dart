@@ -12,9 +12,10 @@ class DrawerPage extends StatelessWidget {
                           child:  Image.asset(
                     "assets/logo.png",
                     fit: BoxFit.contain,
+                    
                   ),
                           decoration: BoxDecoration(
-                            color: Colors.blue
+                            color: Colors.black87
                           ),
                         ),
                         Divider(),

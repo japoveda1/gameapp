@@ -14,6 +14,7 @@ class VideoPage extends StatelessWidget {
       drawer: DrawerPage(),
       appBar:AppBar(
         title: Text('Videos', style: TextStyle(fontFamily: "Comic"),),
+        backgroundColor: Colors.black38
       ),
       body: ListView(
         padding:EdgeInsets.all(10),

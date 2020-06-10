@@ -19,6 +19,7 @@ class HomePage extends StatelessWidget {
             ),
           )],
         title: Text('Game App', style: TextStyle(fontFamily: "Comic"),),
+        backgroundColor: Colors.black38
       ),
       body: ListView(
         padding: EdgeInsets.all(10),

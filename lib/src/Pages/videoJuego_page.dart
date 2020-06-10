@@ -11,6 +11,7 @@ class VideoJuegoPage extends StatelessWidget {
       appBar: AppBar(
         
         title: Text('Top Juegos', style: TextStyle(fontFamily: "Comic"),),
+        backgroundColor: Colors.black38
       ),
       body: ListView(
         children: <Widget>[

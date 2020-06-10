@@ -11,6 +11,7 @@ class StreamersPage extends StatelessWidget {
       appBar: AppBar(
         
         title: Text('Top Streamers', style: TextStyle(fontFamily: "Comic"),),
+        backgroundColor: Colors.black38
       ),
       body: ListView(
         children: <Widget>[
